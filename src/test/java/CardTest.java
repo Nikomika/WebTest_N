@@ -25,6 +25,6 @@ public class CardTest {
     }
     @Test
     void shouldTestSomething(){
-        driver.get("http://localhost:9999");
+        driver.get("http://0.0.0.0:9999");
     }
 }
