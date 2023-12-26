@@ -27,7 +27,7 @@ public class CardTest {
     }
     @Test
     void shouldTestSomething() throws InterruptedException {
-        driver.get("http://0.0.0.0:9999");
+        driver.get("http://localhost:9999");
         WebElement form = driver.findElement(By.cssSelector("[data-test-id=callback-form]"));
         form.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys ("Nataliya");
         form.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys ("+79270000000");
